@@ -4,6 +4,11 @@ Detect Loop in Linked List
 Given a linked list which can have a loop, find the node at which the loop starts. If no loop exists, return NULL.
 
 Detect Loop in Linked List
+input: 1 -> 7 -> 3 -> 6 -|
+            ^            |
+            |------------|
+
+Output: 7
 Testing
 Input Format
 The first line contains an integer ‘T’ denoting the number of independent test cases.
