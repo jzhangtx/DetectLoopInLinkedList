@@ -113,7 +113,7 @@ ListNode* StartingNodeOfLoop(ListNode* list)
 
     while (list != nullptr)
     {
-        if (nodes.find(list) != nodes.cend())
+        if (nodes.contains(list))
             return list;
 
         nodes.insert(list);
