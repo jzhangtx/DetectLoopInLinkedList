@@ -48,6 +48,9 @@ func GetNodeByIndex(pHead *ListNode, index int) *ListNode {
 	}
 
 	for i := 0; i < index; i++ {
+		if pHead == nil {
+			return pHead
+		}
 		pHead = pHead.next
 	}
 
